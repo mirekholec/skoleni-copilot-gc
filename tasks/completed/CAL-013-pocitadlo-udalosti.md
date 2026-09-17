@@ -11,10 +11,10 @@ Přidat do hlavičky aplikace malý badge (odznak) zobrazující celkový počet
 
 ## Požadavky
 
-- [ ] Vedle čísla týdne (nebo názvu měsíce) zobrazit badge s počtem událostí
-- [ ] Počet se aktualizuje při navigaci, přepnutí pohledu a změně filtrů kategorií
-- [ ] Badge se zobrazí pouze pokud je počet > 0
-- [ ] Respektovat filtr aktivních kategorií (počítat pouze viditelné události)
+- [x] Vedle čísla týdne (nebo názvu měsíce) zobrazit badge s počtem událostí
+- [x] Počet se aktualizuje při navigaci, přepnutí pohledu a změně filtrů kategorií
+- [x] Badge se zobrazí pouze pokud je počet > 0
+- [x] Respektovat filtr aktivních kategorií (počítat pouze viditelné události)
 
 ## Technické poznámky
 
@@ -32,7 +32,7 @@ Přidat do hlavičky aplikace malý badge (odznak) zobrazující celkový počet
 
 ## Akceptační kritéria
 
-- [ ] V hlavičce se zobrazuje badge s počtem událostí aktuálního týdne
+- [x] V hlavičce se zobrazuje badge s počtem událostí aktuálního týdne
 - [ ] V měsíčním pohledu badge ukazuje počet událostí aktuálního měsíce
-- [ ] Počet respektuje filtr aktivních kategorií
-- [ ] Badge se skryje, pokud je počet událostí 0
+- [x] Počet respektuje filtr aktivních kategorií
+- [x] Badge se skryje, pokud je počet událostí 0
