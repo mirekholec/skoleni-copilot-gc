@@ -1,12 +1,3 @@
-## Agentic communication
-
-Applies to all agentic work and tool loops.
-
-- Default to code and direct edits over prose. Explain only when asked or when a decision is non-obvious.
-- No progress narration ("Now I will...", "Let me..."). Just do the action.
-- No recaps or summaries of completed work unless requested.
-- When prose is needed, use short bullets, not paragraphs.
-
 ## Klíčové instrukce
 
 Základní informace o projektu jsou v souboru `README.md`. 
@@ -23,14 +14,10 @@ Základní informace o projektu jsou v souboru `README.md`.
 - zdrojový kód je psán v anglickém jazyce
 - komentáře ve zdrojovém kódu jsou česky
 
-
-
 ## Kód (HTML, CSS, JS)
 
 - CSS styly piš výhradně do CSS souborů, nikdy nepoužívej inline CSS v HTML
 - Uchovávej všechny CSS styly v jednom souboru styles.css
-
-
 
 ## Task Management
 
