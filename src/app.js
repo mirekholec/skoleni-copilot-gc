@@ -181,6 +181,7 @@ function renderCalendar() {
     renderCalendarHeader();
     renderTimeColumn();
     renderDayColumns();
+    syncCalendarGridWidth();
 }
 
 /** Zobrazení informací o aktuálním týdnu v hlavičce */
@@ -294,6 +295,12 @@ function renderDayColumns() {
 
         dom.calendarBody.appendChild(column);
     }
+}
+
+/** Sladí šířku hlavičky s obsahem kalendáře při zobrazeném scrollbaru */
+function syncCalendarGridWidth() {
+    const scrollbarWidth = dom.calendarBody.offsetWidth - dom.calendarBody.clientWidth;
+    dom.calendarHeader.style.setProperty('--calendar-scrollbar-width', `${scrollbarWidth}px`);
 }
 
 /** Vrátí události pro dané datum (včetně opakujících se) */
@@ -641,6 +648,8 @@ function toggleRecurringDays(show) {
 // ===== Registrace event listenerů =====
 
 function setupEventListeners() {
+    window.addEventListener('resize', syncCalendarGridWidth);
+
     // Navigační tlačítka
     document.getElementById('btnPrev').addEventListener('click', () => navigateWeek(-1));
     document.getElementById('btnNext').addEventListener('click', () => navigateWeek(1));
