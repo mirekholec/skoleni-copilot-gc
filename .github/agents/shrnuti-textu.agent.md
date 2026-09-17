@@ -1,6 +1,6 @@
 ---
 name: shrnuti-textu
-description: Subagent pro shrnutí textu z různých zdrojů, jako URL nebo cesty k soubory. Použij vždy když je potřeba sumarizovat, shrnout nějaký rozsáhlý text...
+description: Subagent pro shrnutí textu z různých zdrojů, jako URL nebo cesty k soubory. Použij vždy když je potřeba sumarizovat, shrnout nějaký text nebo rešerše.
 model: GPT-5.6 Luna (copilot)
 reasoning-effort: max
 argument-hint: Cesta k souboru nebo URL
