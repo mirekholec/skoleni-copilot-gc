@@ -10,7 +10,7 @@ if (args.Length > 1)
     throw new ArgumentException("Expected zero or one argument in yyyy format.");
 }
 
-var year = 2026;
+var year = DateTime.Today.Year;
 
 if (args.Length == 1 &&
     (args[0].Length != 4 ||
