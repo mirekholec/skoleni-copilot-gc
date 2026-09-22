@@ -18,7 +18,10 @@ const DEFAULT_CATEGORIES = [
     { id: 'personal', name: 'Osobní', icon: '🏠', color: '#F0AD4E' },
     { id: 'health', name: 'Zdraví & Sport', icon: '💪', color: '#5CB85C' },
     { id: 'family', name: 'Rodina', icon: '👨‍👩‍👧‍👦', color: '#E8913A' },
-    { id: 'education', name: 'Vzdělávání', icon: '📚', color: '#9B59B6' }
+    { id: 'education', name: 'Vzdělávání', icon: '📚', color: '#9B59B6' },
+    { id: 'golf', name: 'Golf', icon: '⛳', color: '#FF5733' },
+    { id: 'playstation', name: 'PlayStation', icon: '🎮', color: '#C70039' },
+    { id: 'travel', name: 'Cestování', icon: '✈️', color: '#900C3F' }
 ];
 
 const DEFAULT_SETTINGS = {
