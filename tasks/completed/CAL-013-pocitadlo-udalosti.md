@@ -1,12 +1,5 @@
 # CAL-013: Počítadlo událostí v headeru
 
-**Summary:** Zobrazit badge s počtem událostí aktuálního týdne/měsíce v hlavičce aplikace
-**Priorita:** Low
-**Story points:** 1
-**Labels:** feature, ux
-
-## Popis
-
 Přidat do hlavičky aplikace malý badge (odznak) zobrazující celkový počet událostí v aktuálně zobrazeném týdnu nebo měsíci. Uživatel tak na první pohled vidí, kolik má naplánovaných událostí.
 
 ## Požadavky
