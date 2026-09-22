@@ -31,7 +31,16 @@ const DEFAULT_SETTINGS = {
     defaultReminderMinutes: 15,
     timeFormat: '24h',
     locale: 'cs-CZ',
-    activeCategories: ['work', 'personal', 'health', 'family', 'education']
+    activeCategories: [
+        'work',
+        'personal',
+        'health',
+        'family',
+        'education',
+        'golf',
+        'playstation',
+        'travel'
+    ]
 };
 
 // ===== Stav aplikace =====
