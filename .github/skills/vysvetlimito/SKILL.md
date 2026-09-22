@@ -1,6 +1,6 @@
 ---
 name: vysvetlimito
-description: Vysvětlí kód
+descrip
 disable-model-invocation: true
 ---
 
