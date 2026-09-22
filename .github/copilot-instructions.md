@@ -1,12 +1,3 @@
-## Agentic communication
-
-Applies to all agentic work and tool loops.
-
-- Default to code and direct edits over prose. Explain only when asked or when a decision is non-obvious.
-- No progress narration ("Now I will...", "Let me..."). Just do the action.
-- No recaps or summaries of completed work unless requested.
-- When prose is needed, use short bullets, not paragraphs.
-
 ## Klíčové instrukce
 
 Základní informace o projektu jsou v souboru `README.md`. 
@@ -14,7 +5,6 @@ Základní informace o projektu jsou v souboru `README.md`.
 - webová aplikace je napsaná v HTML, CSS a JS (JavaScript)
 - aplikace musí být spustitelná vždy pouhým otevřením souboru `index.html` bez serveru
 - data se uchovávají výhradně v localstorage webového prohlížeče
-- čistota, udržitelnost a srozumitelnost kódu má prioritu i před výkonností
 
 
 ## Jazyková nastavení a komunikace
