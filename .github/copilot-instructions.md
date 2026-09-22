@@ -20,11 +20,3 @@ Základní informace o projektu jsou v souboru `README.md`.
 
 - CSS styly piš výhradně do CSS souborů, nikdy nepoužívej inline CSS v HTML
 - Uchovávej všechny CSS styly v jednom souboru styles.css
-
-
-
-## Task Management
-
-Pokud implementuješ task z `tasks` a úkol dokončíš, vždy automaticky přesuneš tento task do podsložky `tasks/completed` 
-
-K dokončenému tasku vytvoř soubor, do kterého vložíš informace o implementaci. Název souboru bude vycházet z původního, například pokud implementuješ: `X-01-nazev-feature.md` tak název komplementárního souboru bude `X-01-nazev-feature-IMPL.md`.
