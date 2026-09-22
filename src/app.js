@@ -21,7 +21,8 @@ const DEFAULT_CATEGORIES = [
     { id: 'education', name: 'Vzdělávání', icon: '📚', color: '#9B59B6' },
     { id: 'golf', name: 'Golf', icon: '⛳', color: '#FF5733' },
     { id: 'playstation', name: 'PlayStation', icon: '🎮', color: '#C70039' },
-    { id: 'travel', name: 'Cestování', icon: '✈️', color: '#900C3F' }
+    { id: 'travel', name: 'Cestování', icon: '✈️', color: '#900C3F' },
+    { id: 'entertainment', name: 'Zábava', icon: '🎬', color: '#06B6D4' }
 ];
 
 const DEFAULT_SETTINGS = {
@@ -39,7 +40,8 @@ const DEFAULT_SETTINGS = {
         'education',
         'golf',
         'playstation',
-        'travel'
+        'travel',
+        'entertainment'
     ]
 };
 
